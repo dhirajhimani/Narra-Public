@@ -10,6 +10,21 @@ https://github.com/dhirajhimani/Narra-Public/raw/master/assets/demo_v1.0.0.mp4
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/01_library.png" width="230" alt="Library Screen" />
+  <img src="assets/02_import_languages.png" width="230" alt="Import with Language Support" />
+  <img src="assets/03_reader.png" width="230" alt="Bilingual Reader" />
+</p>
+<p align="center">
+  <img src="assets/04_translation.png" width="230" alt="Translation Progress" />
+  <img src="assets/05_ai_provider.png" width="230" alt="AI Provider Selection" />
+  <img src="assets/06_export.png" width="230" alt="Export Options" />
+</p>
+
+---
+
 ## ✨ What Is Narra?
 
 Narra takes any standard text and rebuilds it in real-time as an interactive, bilingual learning experience — **entirely on your device**, with no cloud, no subscription, and no data leaving your hands.
