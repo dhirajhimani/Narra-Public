@@ -4,6 +4,12 @@
 
 ---
 
+## 🎬 Demo
+
+https://github.com/dhirajhimani/Narra-Public/raw/master/assets/demo_v1.0.0.mp4
+
+---
+
 ## ✨ What Is Narra?
 
 Narra takes any standard text and rebuilds it in real-time as an interactive, bilingual learning experience — **entirely on your device**, with no cloud, no subscription, and no data leaving your hands.
@@ -97,9 +103,12 @@ The AI model (~2.5 GB) downloads once post-install, then everything runs locally
 
 ## 📥 Downloads
 
-> 🚧 **Coming Soon** — Narra is currently in active development.
+| Platform | Latest | Link |
+|---|---|---|
+| Android | v1.0.0 | [Narra-release.apk](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-release.apk) |
+| macOS | v1.0.0 | [Narra-1.0.0.dmg](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-1.0.0.dmg) |
 
-Release artifacts (APK, DMG, etc.) will be published as [GitHub Releases](https://github.com/dhirajhimani/Narra-Public/releases) on this repo.
+All releases: [GitHub Releases](https://github.com/dhirajhimani/Narra-Public/releases)
 
 ### Planned Distribution
 
