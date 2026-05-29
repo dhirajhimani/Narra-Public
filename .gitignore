@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Build artifacts (uploaded as GitHub Release assets, not committed)
+*.apk
+*.aab
+*.dmg
+*.msi
+*.deb
+*.gguf
+
+# IDE
+.idea/
+*.iml
+
+# Temp
+*.log
+
