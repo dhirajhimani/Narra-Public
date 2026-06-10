@@ -223,6 +223,12 @@ Narra is dual-licensed:
 
 ---
 
+## 📝 Writing
+
+- **[What if your AI app didn't need the internet?](https://dev.to/dhiraj_himani_36f2516907e/what-if-your-ai-app-didnt-need-the-internet-755)** — The story behind building Narra: on-device AI, thermal management, and why offline-first is a feature not a constraint.
+
+---
+
 ## 📬 Contact
 
 - **Issues:** [GitHub Issues](https://github.com/dhirajhimani/Narra-Public/issues)
