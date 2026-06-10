@@ -1,6 +1,6 @@
 # 📖 Narra
 
-> **An offline-first, AI-powered multilingual e-reader** — translate any book into a bilingual reading experience, generate vocabulary glossaries and grammar tips, and close each chapter with a GPU-accelerated visual recap, entirely on your device with zero cloud and zero data transfer.
+> **An offline-first, AI-powered multilingual e-reader** — translate any book into a bilingual reading experience, tap any word for instant glossary and grammar tips, entirely on your device with zero cloud and zero data transfer.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.forthepeoples.narra">
@@ -67,16 +67,13 @@ At the end of each chapter, the AI will analyze the chapter's emotional arc, key
 
 ## 📱 Platform Support
 
-| Feature | Android | iOS | Desktop (JVM) | Web |
-|---|---|---|---|---|
-| Bilingual reading | ✅ | ✅ | ✅ | ✅ (pre-translated only) |
-| On-device AI translation | ✅ | ✅ | ✅ | ❌ |
-| Glossary + Grammar tips | ✅ ¹ | ✅ ¹ | ✅ ¹ | ✅ (from `.mlbk`) |
-| `.mlbk` + `.epub` export | ✅ | ✅ | ✅ | ❌ |
-| Chapter visual recaps | 🚧 | 🚧 | 🚧 | 🚧 |
-| LGI image/video generation | ❌ | ❌ | ✅ | ❌ |
-
-> ¹ Glossary and grammar tips require the on-device AI model to be downloaded.
+| Feature | Android | iOS | Desktop (JVM) |
+|---|---|---|---|
+| Bilingual reading | ✅ | ✅ | ✅ |
+| On-device AI translation | ✅ | ✅ | ✅ |
+| Glossary + Grammar tips | ✅ | ✅ | ✅ |
+| `.mlbk` + `.epub` export | ✅ | ✅ | ✅ |
+| Chapter visual recaps | 🚧 | 🚧 | 🚧 |
 
 ---
 
@@ -94,8 +91,7 @@ Language models (~30 MB per language) download on demand and run entirely locall
 |---|---|
 | Language | Kotlin (Multiplatform) |
 | UI | Compose Multiplatform |
-| AI Inference | llama.cpp (via Llamatik wrapper) |
-| SLM | Qwen3-4B-Instruct-2507 — GGUF Q4_K_M |
+| AI Translation | On-device ML Kit (~30 MB per language) |
 | Database | SQLDelight (SQLite) |
 | Navigation | Voyager |
 | DI | Koin |
@@ -116,7 +112,6 @@ Language models (~30 MB per language) download on demand and run entirely locall
 | Old Way | Narra Way |
 |---|---|
 | Read → hit unknown word → open dictionary → lose context | Read with the translation already there — never lose the thread |
-| Finish a chapter → vague memory | Finish a chapter → watch a visual recap that locks it in |
 | Cloud AI translation → pay monthly → trust them with your data | Everything runs locally — one-time app, permanent capability |
 | EPUB is either original or translated — never both | EPUB exports are bilingual by default |
 
@@ -169,6 +164,42 @@ graph TD
 ```
 
 **Layer rule:** `presentation → domain → data → native AI interop`. Never skip or reverse.
+
+---
+
+## 🚀 Getting Started
+
+1. **Install** — Download Narra from [Google Play](https://play.google.com/store/apps/details?id=com.forthepeoples.narra) or grab the [macOS DMG](https://github.com/dhirajhimani/Narra-Public/releases)
+2. **Download a language model** — On first launch, Narra guides you through a quick one-time download (~30 MB per language pair, Wi-Fi recommended)
+3. **Import a book** — Tap the `+` button and import any EPUB file from your device
+4. **Start reading** — Open the book and the bilingual reader is ready. Tap any word for an instant glossary entry.
+
+That's it. No account, no sign-in, no subscription.
+
+---
+
+## ❓ FAQ
+
+**Which languages are supported?**  
+100+ languages via on-device AI models. You select your native language and the language you want to learn at import time.
+
+**How much storage does it need?**  
+The app itself is lightweight. Each language model is ~30 MB and downloaded on demand — you only download the language pairs you need.
+
+**Does it work without internet?**  
+Yes, completely. After the initial model download, Narra works 100% offline — on a plane, underground, anywhere.
+
+**Can I use my own EPUB books?**  
+Yes. Narra imports standard EPUB files. You bring your own books — we don't sell or host content.
+
+**Is there a size limit on books?**  
+No hard limit. Very large books may take longer to translate — Narra translates on-demand as you read, so you can start instantly without waiting for the whole book.
+
+**Why does it need a model download?**  
+Translation runs entirely on your device — no cloud, no API. The small language model is what makes that possible. It downloads once and is reused for every book in that language pair.
+
+**Is my reading data private?**  
+Completely. Narra has no analytics, no telemetry, and no server. Your books, reading progress, and vocabulary data never leave your device.
 
 ---
 
