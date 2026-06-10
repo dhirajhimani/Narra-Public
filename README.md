@@ -2,6 +2,12 @@
 
 > **An offline-first, AI-powered multilingual e-reader** — translate any book into a bilingual reading experience, generate vocabulary glossaries and grammar tips, and close each chapter with a GPU-accelerated visual recap, entirely on your device with zero cloud and zero data transfer.
 
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.forthepeoples.narra">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="70"/>
+  </a>
+</p>
+
 ---
 
 ## 🎬 Demo
@@ -89,7 +95,7 @@ The AI model (~2.5 GB) downloads once post-install, then everything runs locally
 | Language | Kotlin (Multiplatform) |
 | UI | Compose Multiplatform |
 | AI Inference | llama.cpp (via Llamatik wrapper) |
-| SLM | Qwen 3.5 4B — GGUF Q4_K_M |
+| SLM | Qwen3-4B-Instruct-2507 — GGUF Q4_K_M |
 | Database | SQLDelight (SQLite) |
 | Navigation | Voyager |
 | DI | Koin |
@@ -118,22 +124,27 @@ The AI model (~2.5 GB) downloads once post-install, then everything runs locally
 
 ## 📥 Downloads
 
-| Platform | Latest | Link |
-|---|---|---|
-| Android | v1.0.0 | [Narra-release.apk](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-release.apk) |
-| macOS | v1.0.0 | [Narra-1.0.0.dmg](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-1.0.0.dmg) |
+### Android
+
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>](https://play.google.com/store/apps/details?id=com.forthepeoples.narra)
+
+Or grab the APK directly: [Narra-release.apk](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-release.apk)
+
+### macOS
+
+[Narra-1.0.0.dmg](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-1.0.0.dmg)
 
 All releases: [GitHub Releases](https://github.com/dhirajhimani/Narra-Public/releases)
 
-### Planned Distribution
+### Distribution
 
-| Platform | Channel |
-|---|---|
-| Android | Google Play Store + GitHub Releases (APK) |
-| iOS | Apple App Store + TestFlight |
-| macOS | GitHub Releases (DMG) |
-| Windows | GitHub Releases (MSI) |
-| Linux | GitHub Releases (DEB) |
+| Platform | Channel | Status |
+|---|---|---|
+| Android | [Google Play Store](https://play.google.com/store/apps/details?id=com.forthepeoples.narra) + GitHub Releases (APK) | ✅ Live |
+| iOS | Apple App Store + TestFlight | 🔜 Coming soon |
+| macOS | GitHub Releases (DMG) | ✅ Live |
+| Windows | GitHub Releases (MSI) | 🔜 Coming soon |
+| Linux | GitHub Releases (DEB) | 🔜 Coming soon |
 
 ---
 
