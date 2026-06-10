@@ -123,11 +123,11 @@ Language models (~30 MB per language) download on demand and run entirely locall
 
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>](https://play.google.com/store/apps/details?id=com.forthepeoples.narra)
 
-Or grab the APK directly: [Narra-release.apk](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-release.apk)
+Or grab the APK directly: [Narra-release.apk](https://github.com/dhirajhimani/Narra-Public/releases)
 
 ### macOS
 
-[Narra-1.0.0.dmg](https://github.com/dhirajhimani/Narra-Public/releases/download/v1.0.0/Narra-1.0.0.dmg)
+[Narra.dmg](https://github.com/dhirajhimani/Narra-Public/releases)
 
 All releases: [GitHub Releases](https://github.com/dhirajhimani/Narra-Public/releases)
 
