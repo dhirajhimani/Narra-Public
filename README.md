@@ -45,7 +45,7 @@ The problem it solves is simple: reading in a foreign language is exhausting. Ev
 Every original paragraph is immediately followed by its translation in your target language. No tab-switching. No lookups. Two languages side by side on the same page.
 
 ### 2. 🧠 Local AI Brain — 100% On-Device
-All generative tasks — translation, glossary extraction, grammar-tip generation, and animation scripts — run on your phone's own hardware using a quantized Small Language Model.
+All translation tasks run on your phone's own hardware using on-device AI models — small, fast, and private.
 
 - Works on a plane, in a tunnel, anywhere — **zero internet required**
 - No API keys, no monthly cost, no rate limits
@@ -84,7 +84,7 @@ At the end of each chapter, the AI will analyze the chapter's emotional arc, key
 
 Narra is **100% offline-first**. No cloud AI API calls. No telemetry. No user data leaves the device. Full compliance with Apple Guideline 5.1.2(i).
 
-The AI model (~2.5 GB) downloads once post-install, then everything runs locally forever.
+Language models (~30 MB per language) download on demand and run entirely locally after that.
 
 ---
 
